@@ -853,7 +853,7 @@ section {
   right: 5px;
 }
 /* Trusts section */
-.trusts .trusts-second-title {
+.trusts-second-title {
   font-size: 3.75rem;
   font-weight: 700;
   color: #e7a837;
@@ -2065,8 +2065,6 @@ div {
   }
 
   .properties-heading {
-    flex-direction: column;
-    align-items: center;
     text-align: center;
   }
 
@@ -2542,6 +2540,16 @@ div {
     max-width: 100%;
   }
 
+  /* Trusts */
+  .trusts-main-heading {
+    text-align: center;
+  }
+
+  .trusts-first-title,
+  .trusts-second-title {
+    font-size: 30px;
+  }
+
   /* Insights */
   .insights-container {
     grid-template-columns: 1fr;
@@ -2556,6 +2564,9 @@ div {
     flex-direction: column;
     text-align: center;
     gap: 10px;
+  }
+  .trusts-button-container .paragraph p {
+    font-size: 35px;
   }
 }
 /* ===========================
@@ -2680,6 +2691,10 @@ div {
     padding: 1.5rem;
     margin-bottom: 20px;
   }
+  .card-middle {
+    margin-top: 0;
+    height: fit-content;
+  }
 
   .card-description {
     font-size: 0.9rem;
@@ -2710,6 +2725,10 @@ div {
     gap: 2rem;
   }
 
+  .article-item h4 {
+    font-size: 24px;
+  }
+
   /* Footer */
   .footer-main-content {
     grid-template-columns: 1fr;
@@ -2720,6 +2739,9 @@ div {
     flex-direction: column;
     text-align: center;
     gap: 12px;
+  }
+  .trusts-button-container .paragraph p {
+    font-size: 32px;
   }
 }
 /* ===========================
@@ -2808,10 +2830,12 @@ div {
   }
 
   /* Trusts */
-  .trusts-main-heading,
-  .trusts-second-title {
-    font-size: 34px;
+  .trusts-main-heading {
     text-align: center;
+  }
+
+  .properties-heading {
+    flex-direction: column;
   }
 
   .trusts-divider-item p {
@@ -2821,6 +2845,15 @@ div {
   /* Insights */
   .insights-heading h2 {
     font-size: 34px;
+  }
+  .insights-left-column h3 {
+    font-size: 1.2rem;
+  }
+  .insights-text-container {
+    height: fit-content;
+  }
+  .article-item h4 {
+    font-size: 24px;
   }
 
   /* FAQ */
@@ -2842,6 +2875,10 @@ div {
   }
   .trusts-button-container {
     flex-direction: column;
+  }
+  .trusts-button-container .paragraph p {
+    font-size: 35px;
+    margin-top: 10px;
   }
 }
 /* ===========================
@@ -2976,9 +3013,13 @@ div {
     font-size: 14px;
   }
 
-  .trusts-main-heading,
+  .trusts-first-title,
   .trusts-second-title {
-    font-size: 30px;
+    font-size: 25px;
+  }
+
+  .trusts-second-title {
+    font-size: 25px;
   }
 
   /* Insights */
@@ -3122,12 +3163,6 @@ div {
   /* Gallery */
   .big-image img {
     height: 200px;
-  }
-
-  /* Trust */
-  .trusts-main-heading,
-  .trusts-second-title {
-    font-size: 26px;
   }
 
   .trusts-divider-item p {
@@ -3436,9 +3471,9 @@ div {
   }
 
   /* Trust Section */
-  .trusts-main-heading,
+  .trusts-first-title,
   .trusts-second-title {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .trusts-left-column {
